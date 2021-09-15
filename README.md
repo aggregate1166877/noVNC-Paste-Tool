@@ -1,6 +1,6 @@
 ## noVNC pasting tool
 
-Scriptlet used to paste text into noNVC windows using the browser's dev console.
+Scriptlet used to paste text into noNVC consoles using the browser's dev console.
 
 ![Screenshot](screenshot.png)
 
@@ -18,15 +18,16 @@ You may use this tool two different ways:
 * Right click the grey gutters on the side of your noVNC page.
 * Click `Inspect`.
 * Click the `Console` tab.
-* Open [paste-tool.js](paste-tool.js) in this repo, and copy its contents into
-  the `Console` tab. Press enter.
+* Open [paste-tool.js](https://raw.githubusercontent.com/aggregate1166877/noVNC-Paste-Tool/primary/paste-tool.js)
+  in this repo, and copy its contents into the `Console` tab. Press enter.
 * The paste tool window shows up.
 
 #### Saving as a bookmarklet
 You may turn this into an easy-to-click button by saving the actual JavaScript
 as a bookmark:
 * In your browser, enable your bookmarks bar.
-* Open [bookmarklet.js](bookmarklet.js) and copy its contents.
+* Open [bookmarklet.js](https://raw.githubusercontent.com/aggregate1166877/noVNC-Paste-Tool/primary/bookmarklet.js)
+  and copy its contents.
 * Right click your bookmarks bar, click `Add page...` (Chrome) or
   `Add Bookmark...` (Firefox).
   * In the `Name` field, enter `noVNC paste tool` (or any other name you want).
@@ -57,8 +58,8 @@ The script currently does not have a stop button; close the KVM tab to stop a
 paste tab. This will stop all JS on the page, including the paste.
 
 #### VIM
-When pasting into vim, note that some setups will do perform unwanted actions
-(such as auto-indenting when enter is pressed). The solution for vim is first
+When pasting into Vim, note that some setups will do perform unwanted actions
+(such as auto-indenting when enter is pressed). The solution for Vim is first
 to run:
 ```
 :set paste
