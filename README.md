@@ -1,6 +1,8 @@
 ## noVNC pasting tool
 
-Scriptlet used to paste text into noNVC consoles using the browser's dev console.
+Browser hack that enables pasting text into noNVC consoles using the browser's dev console.
+
+This does not require making any changes on the server whatsoever and is purely ephemeral client-side code.
 
 ![Screenshot](screenshot.png)
 
